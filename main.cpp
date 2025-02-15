@@ -19,7 +19,7 @@ int main()
         a1.Display();
 
     }
-    catch (const exception& e) // Corrected exception handling
+    catch (const exception& e) //  exception handling
     {
         cout << "Error: " << e.what() << endl;
     }
